@@ -1,0 +1,228 @@
+:root {
+  --color-black: rgb(18, 18, 18);
+  --color-darkblue: rgb(25, 32, 45);
+  --color-white: rgb(255, 255, 255);
+  --color-grey100: rgb(231, 234, 238);
+  --color-grey200: rgb(207, 207, 207);
+  --color-grey400: rgb(103, 109, 126);
+  --color-grey500: rgb(72, 85, 106);
+  --color-purple50: rgb(237, 226, 255);
+  --color-purple300: rgb(167, 117, 241);
+  --color-purple500: rgb(115, 63, 200);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-grey100);
+  font-family: "Barlow Semi Condensed", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 19.0625rem;
+  gap: 2rem;
+}
+
+.cards > .feedback {
+  height: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.cards > .feedback > figure {
+  display: flex;
+  align-items: center;
+  gap: 1.0625rem;
+  margin-bottom: 1rem;
+}
+
+.cards > .feedback > figure > img {
+  border-radius: 50%;
+  max-width: 1.75rem;
+}
+
+/* alterando conteúdo dentro das cards */
+/* first card */
+.cards > .feedback:nth-child(1) {
+  background-color: var(--color-purple500);
+}
+
+.cards > .feedback:nth-child(1) > figure > img {
+  border: 2px solid var(--color-purple300);
+}
+
+.cards > .feedback:nth-child(1) > figure > figcaption > .name {
+  color: var(--color-white);
+  font-size: 0.8125rem;
+  line-height: 110%;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(1) > figure > figcaption > .status {
+  color: var(--color-purple50);
+  font-size: 0.6875rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(1) > .title {
+  font-size: 1.25rem;
+  color: var(--color-white);
+  line-height: 120%;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cards > .feedback:nth-child(1) > .feedback_quote {
+  font-size: 0.8125rem;
+  color: var(--color-purple50);
+  line-height: 110%;
+  font-weight: 500;
+}
+
+/* second card */
+.cards > .feedback:nth-child(2) {
+  background-color: var(--color-grey500);
+}
+
+.cards > .feedback:nth-child(2) > figure > figcaption > .name {
+  color: var(--color-white);
+  font-size: 0.8125rem;
+  line-height: 110%;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(2) > figure > figcaption > .status {
+  color: var(--color-grey400);
+  font-size: 0.6875rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(2) > .title {
+  font-size: 1.25rem;
+  color: var(--color-white);
+  line-height: 120%;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cards > .feedback:nth-child(2) > .feedback_quote {
+  font-size: 0.8125rem;
+  color: var(--color-grey100);
+  line-height: 110%;
+  font-weight: 500;
+}
+
+/* thirty card */
+.cards > .feedback:nth-child(3) {
+  background-color: var(--color-white);
+}
+
+.cards > .feedback:nth-child(3) > figure > figcaption > .name {
+  color: var(--color-grey500);
+  font-size: 0.8125rem;
+  line-height: 110%;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(3) > figure > figcaption > .status {
+  color: var(--color-grey400);
+  font-size: 0.6875rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(3) > .title {
+  font-size: 1.25rem;
+  color: var(--color-grey500);
+  line-height: 120%;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cards > .feedback:nth-child(3) > .feedback_quote {
+  font-size: 0.8125rem;
+  color: var(--color-grey400);
+  line-height: 110%;
+  font-weight: 500;
+}
+
+/* fourthy card */
+.cards > .feedback:nth-child(4) {
+  background-color: var(--color-darkblue);
+}
+.cards > .feedback:nth-child(4) > figure > figcaption > .name {
+  color: var(--color-white);
+  font-size: 0.8125rem;
+  line-height: 110%;
+  font-weight: 500;
+
+  margin-bottom: 0.25rem;
+}
+
+.cards > .feedback:nth-child(4) > figure > figcaption > .status {
+  color: var(--color-white);
+  font-size: 0.6875rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(4) > .title {
+  font-size: 1.25rem;
+  color: var(--color-grey200);
+  line-height: 120%;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cards > .feedback:nth-child(4) > .feedback_quote {
+  font-size: 0.8125rem;
+  color: var(--color-grey100);
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(5) {
+  background-color: var(--color-white);
+}
+
+.cards > .feedback:nth-child(5) > figure > figcaption > .name {
+  color: var(--color-grey500);
+  font-size: 0.8125rem;
+  line-height: 110%;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(5) > figure > figcaption > .status {
+  color: var(--color-grey200);
+  font-size: 0.6875rem;
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.cards > .feedback:nth-child(5) > .title {
+  font-size: 1.25rem;
+  color: var(--color-grey500);
+  line-height: 120%;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.cards > .feedback:nth-child(5) > .feedback_quote {
+  font-size: 0.8125rem;
+  color: var(--color-grey400);
+  line-height: 110%;
+  font-weight: 500;
+}
