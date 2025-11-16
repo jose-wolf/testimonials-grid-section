@@ -36,7 +36,7 @@ body {
 
 .cards > .feedback {
   height: auto;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 40px 35px 20px rgba(0, 0, 0, 0.1);
   border-radius: 0.5rem;
   padding: 2rem;
 }
@@ -88,7 +88,7 @@ body {
 .cards > .feedback:nth-child(1) > .feedback_quote {
   font-size: 0.8125rem;
   color: var(--color-purple50);
-  line-height: 110%;
+  line-height: 140%;
   font-weight: 500;
 }
 
@@ -122,7 +122,7 @@ body {
 .cards > .feedback:nth-child(2) > .feedback_quote {
   font-size: 0.8125rem;
   color: var(--color-grey100);
-  line-height: 110%;
+  line-height: 140%;
   font-weight: 500;
 }
 
@@ -156,7 +156,7 @@ body {
 .cards > .feedback:nth-child(3) > .feedback_quote {
   font-size: 0.8125rem;
   color: var(--color-grey400);
-  line-height: 110%;
+  line-height: 140%;
   font-weight: 500;
 }
 
@@ -190,7 +190,7 @@ body {
 .cards > .feedback:nth-child(4) > .feedback_quote {
   font-size: 0.8125rem;
   color: var(--color-grey100);
-  line-height: 110%;
+  line-height: 140%;
   font-weight: 500;
 }
 
@@ -223,6 +223,6 @@ body {
 .cards > .feedback:nth-child(5) > .feedback_quote {
   font-size: 0.8125rem;
   color: var(--color-grey400);
-  line-height: 110%;
+  line-height: 140%;
   font-weight: 500;
 }
