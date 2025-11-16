@@ -4,21 +4,24 @@ Essa é uma solução para o desafio [Testimonials Grid Section](https://www.fro
 
 ### Versões do projeto
 - Desktop
-<img src="" width="800">
+<img src="./images-projects/desktop.png" width="800">
   
 - Tablet
-<img src="" width="800">
+<img src="./images-projects/tablet1.png" width="800">
 
-<img src="" width="800">
+<img src="./images-projects/tablet2.png" width="800">
 
 - Mobile
-<img src="" width="800">
+<img src="./images-projects/mobile1.png" width="800">
 
-<img src="" width="800">
+<img src="./images-projects/mobile2.png" width="800">
+
+<img src="./images-projects/mobile3.png" width="800">
+
 
 ##
 ### Links
-- Repositório: [solução](https://github.com/jose-wolf/four-card-feature-section)
+- Repositório: [solução](https://github.com/jose-wolf/testimonials-grid-section)
 - Site URL: [site do desafio](https://fourcardfeaturesectionproject.netlify.app/)
 
 ### O que eu aprendi?
