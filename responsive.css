@@ -1,0 +1,61 @@
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "card1 card1"
+      "card2 card3"
+      "card4 card4"
+      "card5 card5";
+    max-width: 40.4375rem;
+    width: 100%;
+  }
+
+  .cards > .feedback:nth-child(1) {
+    background-image: url("./images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: top 0px right 167px;
+    grid-area: card1;
+  }
+  .cards > .feedback:nth-child(2) {
+    grid-area: card2;
+  }
+  .cards > .feedback:nth-child(3) {
+    grid-area: card3;
+  }
+  .cards > .feedback:nth-child(4) {
+    grid-area: card4;
+  }
+  .cards > .feedback:nth-child(5) {
+    grid-area: card5;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "card1 card1 card2 card5"
+      "card3 card4 card4 card5";
+    max-width: 69.625rem;
+    width: 100%;
+  }
+
+  .cards > .feedback.card1 {
+    background-position: top 0px right 60px;
+    grid-area: card1;
+  }
+  .cards > .feedback.card2 {
+    grid-area: card2;
+  }
+  .cards > .feedback.card3 {
+    grid-area: card3;
+  }
+  .cards > .feedback.card4 {
+    grid-area: card4;
+  }
+  .cards > .feedback.card5 {
+    grid-area: card5;
+  }
+}
