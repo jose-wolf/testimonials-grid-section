@@ -11,7 +11,6 @@ Essa é uma solução para o desafio [Testimonials Grid Section](https://www.fro
 
 <img src="./images-projects/tablet2.png" width="800">
 
-- Mobile
 <img src="./images-projects/mobile1.png" width="800">
 
 <img src="./images-projects/mobile2.png" width="800">
@@ -22,7 +21,7 @@ Essa é uma solução para o desafio [Testimonials Grid Section](https://www.fro
 ##
 ### Links
 - Repositório: [solução](https://github.com/jose-wolf/testimonials-grid-section)
-- Site URL: [site do desafio](https://fourcardfeaturesectionproject.netlify.app/)
+- Site URL: [site do desafio](https://testimonialsgridsectionproject.netlify.app/)
 
 ### O que eu aprendi?
 - Css grid
