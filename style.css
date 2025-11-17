@@ -53,8 +53,6 @@ body {
   max-width: 1.75rem;
 }
 
-/* alterando conteúdo dentro das cards */
-/* first card */
 .cards > .feedback:nth-child(1) {
   background-color: var(--color-purple500);
 }
@@ -92,7 +90,6 @@ body {
   font-weight: 500;
 }
 
-/* second card */
 .cards > .feedback:nth-child(2) {
   background-color: var(--color-grey500);
 }
@@ -126,7 +123,6 @@ body {
   font-weight: 500;
 }
 
-/* thirty card */
 .cards > .feedback:nth-child(3) {
   background-color: var(--color-white);
 }
@@ -160,7 +156,6 @@ body {
   font-weight: 500;
 }
 
-/* fourthy card */
 .cards > .feedback:nth-child(4) {
   background-color: var(--color-darkblue);
 }
@@ -225,4 +220,13 @@ body {
   color: var(--color-grey400);
   line-height: 140%;
   font-weight: 500;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 3.5rem;
+}
+
+.attribution > a {
+  text-decoration: none;
 }
