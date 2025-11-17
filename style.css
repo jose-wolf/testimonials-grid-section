@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: rgba(25, 32, 45, 0.08);
+  background-color: rgba(25, 32, 45, 0.05);
   font-family: "Barlow Semi Condensed", sans-serif;
   min-height: 100vh;
   display: flex;
